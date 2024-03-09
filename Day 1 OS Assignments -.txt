@@ -1,0 +1,43 @@
+  Day 1 OS Assignments :-
+  Problem :- 1
+
+1] I create first LinuxAssignment directory.
+   - mkdir LinuxAssignment
+2]Now i creat a new file ny name file1.text
+   - cat>file1.text
+3] Now i create a new directory inside the LinuxAssignment directory.
+   - mkdir docs
+4] to copy the file1.text into the docs.
+  - cp file1.text docs
+  - mv file1.text file2.text
+5] In this stage i have to give persmissions and ownership.
+  - chmod 744file2.text (in this i use absolute mode permissions only understand binary language)
+6] To check the list contents
+  - ls -l(also gives the details of files)
+7] File Searching
+  - ls *.text
+  - grep today file2.text
+8] System information 
+  - date (To display the current system and date )
+9] Networking
+  - ip addr
+  - ping 8.8.8.8 (this one is google ip address)
+  - cntrl + c ( to stop the loop..)
+10] File compression 
+  - (in this first i had to install apt sudo zip)
+  - zip -r file2.text.zip docs (now it convert into the zip file )
+  - mv file2.text.zip newdoc (To extract the content of the file into a new directory )
+11] File editing
+  -vi file2.sh
+
+  Problem :-2
+ a] head data.text
+ b] tail -5 data.text
+ c] head -15 data.text
+ d] tail -n 3 numbers.txt
+ e] tr 'a-z''A-Z'input.tx>output.txt
+ f] uniq duplicate.txt
+
+
+  
+  
